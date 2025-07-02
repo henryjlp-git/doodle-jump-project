@@ -551,39 +551,6 @@ drawScoreEndGame:
 exit:
 	# Paint Background with Lava Color
 	jal ColorBackgroundGameOver
-	add $s0, $t0, 276
-	
-	li $v0, 32 # to sleep
-	li $a0, 800 # sleep duration in ms
-	syscall
-	
-	li $v0, 31
-	li $a0, 68
-	syscall
-	
-	li $v0, 32 # to sleep
-	li $a0, 800 # sleep duration in ms
-	syscall
-	
-	li $v0, 31
-	li $a0, 69
-	syscall
-	
-	
-	li $v0, 32 # to sleep
-	li $a0, 200 # sleep duration in ms
-	syscall
-	
-	li $v0, 32 # to sleep
-	li $a0, 500 # sleep duration in ms
-	syscall
-	
-	li $v0, 31
-	li $a0, 69
-	syscall
-	
-
-		
 		
 	###########################################
 	# Drawing score at the endScreen
